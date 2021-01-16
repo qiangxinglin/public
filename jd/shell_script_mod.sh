@@ -3,4 +3,3 @@ perl -i -p0e 's/let run_pins = \[.*?\]/let run_pins = \["jd_543a487b48ed9,jd_7f6
 
 echo -e >> /scripts/docker/merged_list_file.sh
 echo "20/8 9 * * * node /scripts/jd_joy_run.js >> /scripts/logs/jd_joy_run.log 2>&1" >> /scripts/docker/merged_list_file.sh
-echo "51 */1 * * * git -C /scripts checkout -- ." >> /scripts/docker/merged_list_file.sh
