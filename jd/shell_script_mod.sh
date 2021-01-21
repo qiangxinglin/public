@@ -3,5 +3,4 @@
 
 echo -e >> /scripts/docker/merged_list_file.sh
 echo "*/15 14-15 * * * node /scripts/jd_joy_run.js >> /scripts/logs/jd_joy_run.log 2>&1" >> /scripts/docker/merged_list_file.sh
-curl https://raw.githubusercontent.com/shylocks/Loon/main/docker/crontab_list.sh >> /scripts/docker/merged_lis
-t_file.sh
+curl https://raw.githubusercontent.com/shylocks/Loon/main/docker/crontab_list.sh >> /scripts/docker/merged_list_file.sh
