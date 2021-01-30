@@ -15,5 +15,3 @@
 
 # 海产新年抽奖
 10 7 * * * node /scripts/jd_sx.js >> /scripts/logs/jd_sx.log 2>&1
-
-0 */6 * * * node /scripts/jd_5g.js >> /scripts/logs/jd_5g.log 2>&1
