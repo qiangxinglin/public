@@ -15,3 +15,5 @@
 
 # 海产新年抽奖
 10 7 * * * node /scripts/jd_sx.js >> /scripts/logs/jd_sx.log 2>&1
+
+15 15 * 1,2 * node /scripts/jd_xgyl.js >> /scripts/logs/jd_xgyl.log 2>&1
