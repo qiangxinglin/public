@@ -14,4 +14,4 @@
 #0 0,9,11,13,15,17,19,20,21,22,23 * * * node /scripts/jd_live_redrain_offical.js >> /scripts/logs/jd_live_redrain_offical.log 2>&1
 
 # 海产新年抽奖
-10 7 * * * node /scripts/jd_sx.js >> /scripts/logs/jd_sx.log 2>&1
+#10 7 * * * node /scripts/jd_sx.js >> /scripts/logs/jd_sx.log 2>&1
